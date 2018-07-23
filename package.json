@@ -1,0 +1,19 @@
+{
+  "name": "ghostbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "discord.js": "^11.3.2",
+    "fs": "0.0.1-security",
+    "google-translate-api": "^2.3.0",
+    "ms": "^2.1.1",
+    "nodemon": "^1.18.2"
+  }
+}
