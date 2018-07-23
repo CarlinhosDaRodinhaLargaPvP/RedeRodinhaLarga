@@ -8,7 +8,7 @@ const fs = require('fs')
 
 bot.on('ready', () =>{
   console.log(`Estou ativado! <${bot.user.username}>`);
-  bot.user.setActivity("twitter: @ServidoresGhost", {type: "PLAYING"});
+  bot.user.setActivity("twitter: @RedeGhost", {type: "PLAYING"});
 });
 bot.commands = new Discord.Collection();
 fs.readdir("./comandos", (err, files) => {
